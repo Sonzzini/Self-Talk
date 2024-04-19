@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	
+	@EnvironmentObject var vm: ViewModel
+	
+	var body: some View {
+		NavigationStack {
+			NavigationLink {
+				ScenesView()
+			} label: {
+				Label("Scenes", systemImage: "appwindow.swipe.rectangle")
+			}
+
+		}
+	}
 }
 
 #Preview {
-    ContentView()
+	ContentView()
+		.environmentObject(ViewModel(scenes: [
+			SceneModel(color: .red, title: "Titulo 1")
+		])!)
 }

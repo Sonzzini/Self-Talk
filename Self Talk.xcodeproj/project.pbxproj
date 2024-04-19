@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94CDC522BD16E9B00A459C3 /* NewScenarioSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */; };
+		E94CDC542BD171BF00A459C3 /* ScenarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC532BD171BF00A459C3 /* ScenarioController.swift */; };
+		E94CDC562BD179D900A459C3 /* ScriptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC552BD179D900A459C3 /* ScriptsListView.swift */; };
+		E94CDC582BD17DCE00A459C3 /* SceneCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */; };
 		E968D0DB2BC55E66007DCC5B /* Self_TalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968D0DA2BC55E66007DCC5B /* Self_TalkApp.swift */; };
 		E968D0DD2BC55E66007DCC5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968D0DC2BC55E66007DCC5B /* ContentView.swift */; };
 		E968D0DF2BC55E67007DCC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E968D0DE2BC55E67007DCC5B /* Assets.xcassets */; };
 		E968D0E22BC55E67007DCC5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E968D0E12BC55E67007DCC5B /* Preview Assets.xcassets */; };
+		E9A40EC92BD29A0D007B71BA /* VoiceRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A40EC82BD29A0D007B71BA /* VoiceRecognitionView.swift */; };
+		E9A40ECB2BD29B94007B71BA /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A40ECA2BD29B94007B71BA /* SpeechRecognizer.swift */; };
+		E9CEF4592BCE0BD30040DAC1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4582BCE0BD30040DAC1 /* OnboardingView.swift */; };
+		E9CEF45C2BCE14A40040DAC1 /* ScenesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */; };
+		E9CEF45E2BCE15340040DAC1 /* SceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF45D2BCE15340040DAC1 /* SceneModel.swift */; };
+		E9CEF4612BCE155F0040DAC1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4602BCE155F0040DAC1 /* ViewModel.swift */; };
+		E9CEF4632BCE17DA0040DAC1 /* SceneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4622BCE17DA0040DAC1 /* SceneCard.swift */; };
+		E9CEF4662BCE9DBF0040DAC1 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScenarioSheetView.swift; sourceTree = "<group>"; };
+		E94CDC532BD171BF00A459C3 /* ScenarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioController.swift; sourceTree = "<group>"; };
+		E94CDC552BD179D900A459C3 /* ScriptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsListView.swift; sourceTree = "<group>"; };
+		E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCardsView.swift; sourceTree = "<group>"; };
 		E968D0D72BC55E66007DCC5B /* Self Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E968D0DA2BC55E66007DCC5B /* Self_TalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_TalkApp.swift; sourceTree = "<group>"; };
 		E968D0DC2BC55E66007DCC5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E968D0DE2BC55E67007DCC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E968D0E12BC55E67007DCC5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9A40EC82BD29A0D007B71BA /* VoiceRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognitionView.swift; sourceTree = "<group>"; };
+		E9A40ECA2BD29B94007B71BA /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		E9CEF4582BCE0BD30040DAC1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesView.swift; sourceTree = "<group>"; };
+		E9CEF45D2BCE15340040DAC1 /* SceneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneModel.swift; sourceTree = "<group>"; };
+		E9CEF4602BCE155F0040DAC1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E9CEF4622BCE17DA0040DAC1 /* SceneCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCard.swift; sourceTree = "<group>"; };
+		E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +77,11 @@
 			children = (
 				E968D0DA2BC55E66007DCC5B /* Self_TalkApp.swift */,
 				E968D0DC2BC55E66007DCC5B /* ContentView.swift */,
+				E9CEF4602BCE155F0040DAC1 /* ViewModel.swift */,
+				E94CDC532BD171BF00A459C3 /* ScenarioController.swift */,
+				E9CEF4642BCE17DF0040DAC1 /* Components */,
+				E9CEF45A2BCE0BD80040DAC1 /* Views */,
+				E9CEF45F2BCE15370040DAC1 /* Models */,
 				E968D0DE2BC55E67007DCC5B /* Assets.xcassets */,
 				E968D0E02BC55E67007DCC5B /* Preview Content */,
 			);
@@ -65,6 +94,37 @@
 				E968D0E12BC55E67007DCC5B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9CEF45A2BCE0BD80040DAC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9CEF4582BCE0BD30040DAC1 /* OnboardingView.swift */,
+				E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */,
+				E9A40EC82BD29A0D007B71BA /* VoiceRecognitionView.swift */,
+				E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */,
+				E94CDC552BD179D900A459C3 /* ScriptsListView.swift */,
+				E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */,
+				E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9CEF45F2BCE15370040DAC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9A40ECA2BD29B94007B71BA /* SpeechRecognizer.swift */,
+				E9CEF45D2BCE15340040DAC1 /* SceneModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9CEF4642BCE17DF0040DAC1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E9CEF4622BCE17DA0040DAC1 /* SceneCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +197,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CEF4592BCE0BD30040DAC1 /* OnboardingView.swift in Sources */,
+				E94CDC582BD17DCE00A459C3 /* SceneCardsView.swift in Sources */,
+				E94CDC522BD16E9B00A459C3 /* NewScenarioSheetView.swift in Sources */,
+				E9CEF45E2BCE15340040DAC1 /* SceneModel.swift in Sources */,
 				E968D0DD2BC55E66007DCC5B /* ContentView.swift in Sources */,
+				E9CEF4662BCE9DBF0040DAC1 /* SceneView.swift in Sources */,
 				E968D0DB2BC55E66007DCC5B /* Self_TalkApp.swift in Sources */,
+				E9A40ECB2BD29B94007B71BA /* SpeechRecognizer.swift in Sources */,
+				E9CEF4632BCE17DA0040DAC1 /* SceneCard.swift in Sources */,
+				E94CDC542BD171BF00A459C3 /* ScenarioController.swift in Sources */,
+				E9A40EC92BD29A0D007B71BA /* VoiceRecognitionView.swift in Sources */,
+				E9CEF4612BCE155F0040DAC1 /* ViewModel.swift in Sources */,
+				E94CDC562BD179D900A459C3 /* ScriptsListView.swift in Sources */,
+				E9CEF45C2BCE14A40040DAC1 /* ScenesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +347,8 @@
 				DEVELOPMENT_TEAM = YHC26T5B2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone used for speech recognition";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition used to create reports and for full experience";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +378,8 @@
 				DEVELOPMENT_TEAM = YHC26T5B2D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone used for speech recognition";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition used to create reports and for full experience";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

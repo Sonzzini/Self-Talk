@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Self_TalkApp: App {
+	
+	@StateObject var viewModel = ViewModel()
+	
     var body: some Scene {
         WindowGroup {
             ContentView()
+				  .environmentObject(viewModel)
         }
     }
 }
