@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct NewScenarioSheetView: View {
 	
@@ -33,7 +34,7 @@ struct NewScenarioSheetView: View {
 				} header: {
 					Text("Informações adicionais")
 				} footer: {
-					Text("Ta poxa kkkkkk")
+//					Text("Ta poxa kkkkkk")
 				}
 				
 				Section {
@@ -41,39 +42,26 @@ struct NewScenarioSheetView: View {
 				}
 				
 			}
+			Text("Preview do card:")
+				.font(.system(size: 25))
 			
 			ZStack(alignment: .topLeading) {
 				scenarioColor
-				Text(scenarioTitle)
+				Text(scenarioTitle != "" ? scenarioTitle : "Título")
 					.padding()
 			}
 			.frame(width: 200, height: 100)
 			.clipShape(RoundedRectangle(cornerRadius: 15))
-			.border(Color.black)
+			.border(scenarioColor == .white ? Color.black : Color.clear)
 			
 			.navigationTitle("Novo cenário")
 			.toolbar {
 				ToolbarItem(placement: .confirmationAction) {
-					Button {
-						vm.addScenario(
-							with: SceneModel(color: scenarioColor,
-												  title: scenarioTitle,
-												  script: scenarioScript)
-						)
-						vm.getAllScenarios()
-						dismiss()
-					} label: {
-						Image(systemName: "plus")
-					}
+					addScenarioButton
 				}
 				
 				ToolbarItem(placement: .cancellationAction) {
-					Button {
-						dismiss()
-					} label: {
-						Image(systemName: "trash")
-							.foregroundStyle(.red)
-					}
+					dismissButton
 				}
 			}
 		}
@@ -83,4 +71,27 @@ struct NewScenarioSheetView: View {
 #Preview {
 	NewScenarioSheetView()
 		.environmentObject(ViewModel())
+}
+
+extension NewScenarioSheetView {
+	private var addScenarioButton: some View {
+		Button {
+			vm.addScenario(title: scenarioTitle,
+								script: scenarioScript,
+								color: scenarioColor.description)
+			vm.getAllScenarios()
+			dismiss()
+		} label: {
+			Image(systemName: "plus")
+		}
+	}
+	
+	private var dismissButton: some View {
+		Button {
+			dismiss()
+		} label: {
+			Image(systemName: "trash")
+				.foregroundStyle(.red)
+		}
+	}
 }

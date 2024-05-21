@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E912190E2BF7B4EE0008F703 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912190D2BF7B4EE0008F703 /* ARView.swift */; };
+		E91219102BF7B5A00008F703 /* ARContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912190F2BF7B5A00008F703 /* ARContainerView.swift */; };
 		E94CDC522BD16E9B00A459C3 /* NewScenarioSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */; };
-		E94CDC542BD171BF00A459C3 /* ScenarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC532BD171BF00A459C3 /* ScenarioController.swift */; };
 		E94CDC562BD179D900A459C3 /* ScriptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC552BD179D900A459C3 /* ScriptsListView.swift */; };
 		E94CDC582BD17DCE00A459C3 /* SceneCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */; };
+		E957BAE52BDFF51500FFE412 /* SpeechToTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E957BAE42BDFF51500FFE412 /* SpeechToTextView.swift */; };
+		E95F43672BFBF8EB00E095FD /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95F43662BFBF8EB00E095FD /* ResultsView.swift */; };
+		E95F43692BFC397700E095FD /* LevelProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95F43682BFC397700E095FD /* LevelProgressView.swift */; };
+		E95F436B2BFC3CD700E095FD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95F436A2BFC3CD700E095FD /* ProfileView.swift */; };
+		E95F436D2BFC404800E095FD /* GlowingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95F436C2BFC404800E095FD /* GlowingText.swift */; };
+		E95F436F2BFC425D00E095FD /* ARViewWithGuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95F436E2BFC425D00E095FD /* ARViewWithGuy.swift */; };
 		E968D0DB2BC55E66007DCC5B /* Self_TalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968D0DA2BC55E66007DCC5B /* Self_TalkApp.swift */; };
 		E968D0DD2BC55E66007DCC5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968D0DC2BC55E66007DCC5B /* ContentView.swift */; };
 		E968D0DF2BC55E67007DCC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E968D0DE2BC55E67007DCC5B /* Assets.xcassets */; };
 		E968D0E22BC55E67007DCC5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E968D0E12BC55E67007DCC5B /* Preview Assets.xcassets */; };
-		E9A40EC92BD29A0D007B71BA /* VoiceRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A40EC82BD29A0D007B71BA /* VoiceRecognitionView.swift */; };
 		E9A40ECB2BD29B94007B71BA /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A40ECA2BD29B94007B71BA /* SpeechRecognizer.swift */; };
 		E9CEF4592BCE0BD30040DAC1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4582BCE0BD30040DAC1 /* OnboardingView.swift */; };
 		E9CEF45C2BCE14A40040DAC1 /* ScenesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */; };
@@ -23,19 +29,27 @@
 		E9CEF4612BCE155F0040DAC1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4602BCE155F0040DAC1 /* ViewModel.swift */; };
 		E9CEF4632BCE17DA0040DAC1 /* SceneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4622BCE17DA0040DAC1 /* SceneCard.swift */; };
 		E9CEF4662BCE9DBF0040DAC1 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */; };
+		E9DB5DA42BF7811F00B09608 /* Models.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9DB5DA22BF7811F00B09608 /* Models.xcdatamodeld */; };
+		E9DB5DA62BF7819300B09608 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB5DA52BF7819300B09608 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E912190D2BF7B4EE0008F703 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		E912190F2BF7B5A00008F703 /* ARContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContainerView.swift; sourceTree = "<group>"; };
 		E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScenarioSheetView.swift; sourceTree = "<group>"; };
-		E94CDC532BD171BF00A459C3 /* ScenarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioController.swift; sourceTree = "<group>"; };
 		E94CDC552BD179D900A459C3 /* ScriptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsListView.swift; sourceTree = "<group>"; };
 		E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCardsView.swift; sourceTree = "<group>"; };
+		E957BAE42BDFF51500FFE412 /* SpeechToTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextView.swift; sourceTree = "<group>"; };
+		E95F43662BFBF8EB00E095FD /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		E95F43682BFC397700E095FD /* LevelProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelProgressView.swift; sourceTree = "<group>"; };
+		E95F436A2BFC3CD700E095FD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E95F436C2BFC404800E095FD /* GlowingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingText.swift; sourceTree = "<group>"; };
+		E95F436E2BFC425D00E095FD /* ARViewWithGuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewWithGuy.swift; sourceTree = "<group>"; };
 		E968D0D72BC55E66007DCC5B /* Self Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E968D0DA2BC55E66007DCC5B /* Self_TalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_TalkApp.swift; sourceTree = "<group>"; };
 		E968D0DC2BC55E66007DCC5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E968D0DE2BC55E67007DCC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E968D0E12BC55E67007DCC5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E9A40EC82BD29A0D007B71BA /* VoiceRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognitionView.swift; sourceTree = "<group>"; };
 		E9A40ECA2BD29B94007B71BA /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		E9CEF4582BCE0BD30040DAC1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesView.swift; sourceTree = "<group>"; };
@@ -43,6 +57,8 @@
 		E9CEF4602BCE155F0040DAC1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E9CEF4622BCE17DA0040DAC1 /* SceneCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCard.swift; sourceTree = "<group>"; };
 		E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		E9DB5DA32BF7811F00B09608 /* Models.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Models.xcdatamodel; sourceTree = "<group>"; };
+		E9DB5DA52BF7819300B09608 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +94,8 @@
 				E968D0DA2BC55E66007DCC5B /* Self_TalkApp.swift */,
 				E968D0DC2BC55E66007DCC5B /* ContentView.swift */,
 				E9CEF4602BCE155F0040DAC1 /* ViewModel.swift */,
-				E94CDC532BD171BF00A459C3 /* ScenarioController.swift */,
+				E9DB5DA22BF7811F00B09608 /* Models.xcdatamodeld */,
+				E9DB5DA52BF7819300B09608 /* DataController.swift */,
 				E9CEF4642BCE17DF0040DAC1 /* Components */,
 				E9CEF45A2BCE0BD80040DAC1 /* Views */,
 				E9CEF45F2BCE15370040DAC1 /* Models */,
@@ -99,13 +116,15 @@
 		E9CEF45A2BCE0BD80040DAC1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E95F436A2BFC3CD700E095FD /* ProfileView.swift */,
+				E957BAE42BDFF51500FFE412 /* SpeechToTextView.swift */,
 				E9CEF4582BCE0BD30040DAC1 /* OnboardingView.swift */,
-				E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */,
-				E9A40EC82BD29A0D007B71BA /* VoiceRecognitionView.swift */,
-				E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */,
-				E94CDC552BD179D900A459C3 /* ScriptsListView.swift */,
-				E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */,
-				E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */,
+				E912190D2BF7B4EE0008F703 /* ARView.swift */,
+				E95F436E2BFC425D00E095FD /* ARViewWithGuy.swift */,
+				E912190F2BF7B5A00008F703 /* ARContainerView.swift */,
+				E95F43662BFBF8EB00E095FD /* ResultsView.swift */,
+				E9DB5DA02BF76EBE00B09608 /* HomeView */,
+				E9DB5DA12BF76EE200B09608 /* InsideSceneCard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,8 +142,29 @@
 			isa = PBXGroup;
 			children = (
 				E9CEF4622BCE17DA0040DAC1 /* SceneCard.swift */,
+				E95F43682BFC397700E095FD /* LevelProgressView.swift */,
+				E95F436C2BFC404800E095FD /* GlowingText.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		E9DB5DA02BF76EBE00B09608 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				E9CEF45B2BCE14A40040DAC1 /* ScenesView.swift */,
+				E94CDC572BD17DCE00A459C3 /* SceneCardsView.swift */,
+				E94CDC552BD179D900A459C3 /* ScriptsListView.swift */,
+				E94CDC512BD16E9B00A459C3 /* NewScenarioSheetView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		E9DB5DA12BF76EE200B09608 /* InsideSceneCard */ = {
+			isa = PBXGroup;
+			children = (
+				E9CEF4652BCE9DBF0040DAC1 /* SceneView.swift */,
+			);
+			path = InsideSceneCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,17 +238,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9CEF4592BCE0BD30040DAC1 /* OnboardingView.swift in Sources */,
+				E95F436F2BFC425D00E095FD /* ARViewWithGuy.swift in Sources */,
+				E95F43672BFBF8EB00E095FD /* ResultsView.swift in Sources */,
 				E94CDC582BD17DCE00A459C3 /* SceneCardsView.swift in Sources */,
 				E94CDC522BD16E9B00A459C3 /* NewScenarioSheetView.swift in Sources */,
+				E9DB5DA42BF7811F00B09608 /* Models.xcdatamodeld in Sources */,
 				E9CEF45E2BCE15340040DAC1 /* SceneModel.swift in Sources */,
+				E912190E2BF7B4EE0008F703 /* ARView.swift in Sources */,
+				E95F436D2BFC404800E095FD /* GlowingText.swift in Sources */,
 				E968D0DD2BC55E66007DCC5B /* ContentView.swift in Sources */,
 				E9CEF4662BCE9DBF0040DAC1 /* SceneView.swift in Sources */,
 				E968D0DB2BC55E66007DCC5B /* Self_TalkApp.swift in Sources */,
 				E9A40ECB2BD29B94007B71BA /* SpeechRecognizer.swift in Sources */,
 				E9CEF4632BCE17DA0040DAC1 /* SceneCard.swift in Sources */,
-				E94CDC542BD171BF00A459C3 /* ScenarioController.swift in Sources */,
-				E9A40EC92BD29A0D007B71BA /* VoiceRecognitionView.swift in Sources */,
+				E95F436B2BFC3CD700E095FD /* ProfileView.swift in Sources */,
 				E9CEF4612BCE155F0040DAC1 /* ViewModel.swift in Sources */,
+				E957BAE52BDFF51500FFE412 /* SpeechToTextView.swift in Sources */,
+				E95F43692BFC397700E095FD /* LevelProgressView.swift in Sources */,
+				E9DB5DA62BF7819300B09608 /* DataController.swift in Sources */,
+				E91219102BF7B5A00008F703 /* ARContainerView.swift in Sources */,
 				E94CDC562BD179D900A459C3 /* ScriptsListView.swift in Sources */,
 				E9CEF45C2BCE14A40040DAC1 /* ScenesView.swift in Sources */,
 			);
@@ -269,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -326,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -420,6 +468,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9DB5DA22BF7811F00B09608 /* Models.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9DB5DA32BF7811F00B09608 /* Models.xcdatamodel */,
+			);
+			currentVersion = E9DB5DA32BF7811F00B09608 /* Models.xcdatamodel */;
+			name = Models.xcdatamodeld;
+			path = "/Users/paulosonzzini/Documents/git/Mackenzie/Self Talk/Self Talk/Models.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E968D0CF2BC55E66007DCC5B /* Project object */;
 }

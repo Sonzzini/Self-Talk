@@ -14,8 +14,9 @@ struct Self_TalkApp: App {
 	
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScenesView()
 				  .environmentObject(viewModel)
+				  .environment(\.managedObjectContext, DataController.shared.viewContext)
         }
     }
 }

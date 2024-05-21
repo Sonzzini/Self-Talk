@@ -17,14 +17,14 @@ struct ScriptsListView: View {
 	var body: some View {
 		NavigationStack {
 			List {
-				if !vm.getAllScenarios().isEmpty {
+				if !vm.scenes.isEmpty {
 					ForEach(scenarioFilter != "" ?
-							  vm.getAllScenarios().filter { $0.title.lowercased().contains(scenarioFilter.lowercased()) }
-							  : vm.getAllScenarios(), id: \.id) { scene in
+							  vm.scenes.filter { $0.title!.lowercased().contains(scenarioFilter.lowercased()) }
+							  : vm.scenes, id: \.id) { scene in
 						NavigationLink {
 							SceneView(scene: scene)
 						} label: {
-							Text(scene.title)
+							Text(scene.title ?? "SCENE_TITLE")
 						}
 					}
 				}
@@ -33,14 +33,14 @@ struct ScriptsListView: View {
 				}
 			}
 			.listStyle(.grouped)
-			.frame(height: rowHeight * CGFloat(vm.getAllScenarios().count) + 2 * rowHeight)
+			.frame(height: rowHeight * CGFloat(vm.scenes.count) + 2 * rowHeight)
 			.searchable(text: $scenarioFilter)
 		}
 	}
 }
 
 
-#Preview {
-	ScriptsListView()
-		.environmentObject(ViewModel(scenes: [SceneModel(color: .red, title: "buga buga", script: "iga iga")])!)
-}
+//#Preview {
+//	ScriptsListView()
+//		.environmentObject(ViewModel(scenes: [SceneModel(color: .red, title: "buga buga", script: "iga iga")])!)
+//}
